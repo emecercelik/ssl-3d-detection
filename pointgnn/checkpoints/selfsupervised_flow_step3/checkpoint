@@ -1,0 +1,1 @@
+model_checkpoint_path: "/trainings/checkpoints/selfsupervised_flow_step3/model"

@@ -1,0 +1,2 @@
+model_checkpoint_path: "/kitti_root_tracking/flow_log_train_pretrained_new/model"
+all_model_checkpoint_paths: "/kitti_root_tracking/flow_log_train_pretrained_new/model"

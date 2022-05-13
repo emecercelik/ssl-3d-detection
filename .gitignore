@@ -1,0 +1,5 @@
+model.data-00000-of-00001
+model.index
+model.meta
+*.pth
+*.pyc

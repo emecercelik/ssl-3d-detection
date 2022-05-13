@@ -1,0 +1,13 @@
+Cython
+contextlib2
+jupyter
+matplotlib
+pillow
+scipy
+pycocotools
+tf_slim
+openpyxl
+open3d-python==0.7.0.0
+scikit-learn
+tqdm
+shapely

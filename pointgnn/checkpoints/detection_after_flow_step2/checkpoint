@@ -1,0 +1,1 @@
+model_checkpoint_path: "/trainings/checkpoints/detection_after_flow_step2/model"
