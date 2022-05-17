@@ -78,8 +78,8 @@ We use KITTI and nuScenes datasets for our training. Please arrange the dataset 
 `sh ./tools/test_our_ssn_nus.sh`
 
 ## Checkpoints for Detection Task
-|             | 1%        | 2.5%         | 5%          | 10%    | 20% | 100% |
-|-------------|:---------:|:------------:|:-----------:|:------------:|:----:|
+|             | 1% |2.5%|5%|10%|20%|100%|
+|-------------|:--:|:--:|:--:|:---:|:---:|:---:|
 |PointPillars | ✗         | ✓            | ✓           | ✓      | ✓   | ✓    |
 |CenterPoint. | ✓         | ✓            | ✓           | ✓      | ✗   | ✓    |
 |SSN          | ✓         | ✓            | ✓           | ✓      | ✗   | ✗    |
