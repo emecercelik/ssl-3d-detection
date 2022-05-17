@@ -81,7 +81,7 @@ We use KITTI and nuScenes datasets for our training. Please arrange the dataset 
 |             | 1% |2.5%|5%|10%|20%|100%|
 |-------------|:--:|:--:|:--:|:---:|:---:|:---:|
 |PointPillars | ✗         | ✓            | ✓           | ✓      | ✓   | ✓    |
-|CenterPoint. | ✓         | ✓            | ✓           | ✓      | ✗   | ✓    |
+|CenterPoint. | ✗         | ✓            | ✓           | ✓      | ✗   | ✓    |
 |SSN          | ✓         | ✓            | ✓           | ✓      | ✗   | ✗    |
 
 
