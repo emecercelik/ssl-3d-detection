@@ -82,7 +82,10 @@ We use KITTI and nuScenes datasets for our training. Please arrange the dataset 
 |-------------|:--:|:--:|:--:|:---:|:---:|:---:|
 |PointPillars | ✗         | ✓            | ✓           | ✓      | ✓   | ✓    |
 |CenterPoint. | ✗         | ✓            | ✓           | ✓      | ✗   | ✓    |
-|SSN          | ✓         | ✓            | ✓           | ✓      | ✗   | ✗    |
+|SSN          | [✓](https://drive.google.com/file/d/1hGyMZAvXFPX0g9eImHDs3OnzUor7yzVr/view?usp=sharing)   
+| [✓](https://drive.google.com/file/d/1JAB4D7c2saVTXdw7QBhZ8Jvz44nqsvvK/view?usp=sharing)            
+| [✓](https://drive.google.com/file/d/1VUcW0MOY50KZTc4faEmQYRJqk5_Djsg5/view?usp=sharing)          
+| [✓](https://drive.google.com/file/d/1jMyWkCqBcZ1kiOasburm9QfbqhGYBMv4/view?usp=sharing)      | ✗   | ✗    |
 
 
 (https://drive.google.com/drive/folders/1DM4PumzxGblidBHXC8ao7yP3GHUl8KjC?usp=sharing).
