@@ -23,8 +23,10 @@ For our self-supervised scene flow implementation on Point-GNN, please refer to 
 }
 ```
 ## Dataset
-**KITTI**: Point-GNN, PointPillars<br/>
-**nuScenes**: PointPillars, CenterPoint, SSN
+|        | Point-GNN | PointPillars | CenterPoint | SSN |
+|--------|:---------:|:------------:|:-----------:|:---:|
+|KITTI   | ✓         | ✗            | ✗           | ✗   |
+|nuScenes| ✗         | ✓            | ✓           | ✓   |
 
 ## Acknowledgement
 This repository is coded on top of [Point-GNN](https://github.com/WeijingShi/Point-GNN), [FlowNet3D](https://github.com/xingyul/flownet3d), [Just Go with the Flow: Self-supervised Scene Flow Estimation](https://github.com/HimangiM/Just-Go-with-the-Flow-Self-Supervised-Scene-Flow-Estimation), and [mmdetection3D](https://github.com/open-mmlab/mmdetection3d).
