@@ -21,8 +21,10 @@ mmsegmentation==0.13.0
 
 For the model can be successfully used, please according to the followed steps.
 1. Install the official [mmdetetcion3d](https://github.com/open-mmlab/mmdetection3d/blob/master/docs/en/getting_started.md)
-2. Install `kaolin` in mmdetection3d folder
+2. We use KITTI and nuScenes datasets for our training. Please arrange the dataset structure and pre-precess following [data_preparation.md](https://github.com/open-mmlab/mmdetection3d/blob/v1.0.0.dev0/docs/en/data_preparation.md)
+3. Install `kaolin` in mmdetection3d folder
 ```
+cd mmdetection3d
 git clone https://github.com/NVIDIAGameWorks/kaolin.git
 cd kaolin
 git checkout v0.1
@@ -57,15 +59,28 @@ b. In path `/opt/conda/lib/python3.7/site-packages/`, replace the official `mmde
 We use KITTI and nuScenes datasets for our training. Please arrange the dataset structure following [mmdetection3d](https://github.com/open-mmlab/mmdetection3d/blob/v1.0.0.dev0/docs/en/data_preparation.md) 
 
 ## Usage
-
-### KITTI dataset
+### KITTI
+1. **PointPillars**
 
 `sh ./tools/test_our_pointpillars_kitti.sh`
 
-### nuScenes dataset
+### nuScenes
+
+1. **PointPillars**
 
 `sh ./tools/test_our_pointpillars_nus.sh`
 
-## Checkpoints 
-Pointpillars checkpoints for the results in our paper can be downloaded [here](https://drive.google.com/drive/folders/1DM4PumzxGblidBHXC8ao7yP3GHUl8KjC?usp=sharing).
+2. **CenterPoint**
 
+`sh ./tools/test_our_centerpoint_nus.sh`
+
+3. **SSN**
+`sh ./tools/test_our_ssn_nus.sh`
+
+## Checkpoints for Detection Task
+|             | 1%        | 2.5%         | 5%          | 10%    | 20% | 100% |
+|-------------|:---------:|:------------:|:-----------:|:------------:|:----:|
+|PointPillars | ✗         | ✓            | ✓           | ✓      | ✓   | ✓    |
+|CenterPoint. | ✓         | ✓            | ✓           | ✓      | ✗   | ✓    |
+|SSN          | ✓         | ✓            | ✓           | ✓      | ✗   | ✗    |
+ (https://drive.google.com/drive/folders/1DM4PumzxGblidBHXC8ao7yP3GHUl8KjC?usp=sharing).
