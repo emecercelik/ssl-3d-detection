@@ -58,7 +58,7 @@ b. In path `/opt/conda/lib/python3.7/site-packages/`, replace the official `mmde
 
 We use KITTI and nuScenes datasets for our training. Please arrange the dataset structure following [mmdetection3d](https://github.com/open-mmlab/mmdetection3d/blob/v1.0.0.dev0/docs/en/data_preparation.md) 
 
-## Usage
+## Evaluation
 ### KITTI
 1. **PointPillars**
 
@@ -75,14 +75,16 @@ We use KITTI and nuScenes datasets for our training. Please arrange the dataset 
 `sh ./tools/test_our_centerpoint_nus.sh`
 
 3. **SSN**
+
 `sh ./tools/test_our_ssn_nus.sh`
 
 ## Checkpoints for Detection Task
 |             | 1% |2.5%|5%|10%|20%|100%|
 |-------------|:--:|:--:|:--:|:---:|:---:|:---:|
-|PointPillars | ✗         | ✓            | ✓           | ✓      | ✓   | ✓    |
-|CenterPoint. | ✗         | ✓            | ✓           | ✓      | ✗   | ✓    |
+|PointPillars | ✗         | ✗            | ✗           | ✗      | [✓](https://drive.google.com/file/d/13WQL1EelXd3Ef8On1YA0VFGLWfhXZoag/view?usp=sharing)   | [✓](https://drive.google.com/file/d/1PhdKXz7uVHcCbxznXjMOORuv9CvOlSuK/view?usp=sharing)    |
+|w at| ✗ | ✓ | ✓ | ✓ | ✗ | ✗ |
+|CenterPoint | ✗         | [✓](https://drive.google.com/file/d/10tSDAGkdK5PEkcHajNuluR8c9ddnyc7_/view?usp=sharing)            | [✓](https://drive.google.com/file/d/1dWwFs0pcG1a3L6WV97v6x0nu2yFD-5HD/view?usp=sharing)           | [✓](https://drive.google.com/file/d/1031ZhfeIG7MCDxjGz5nHqxjCvcyAiYiy/view?usp=sharing)      | ✗   | ✓    |
+|w at| ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
 |SSN          | [✓](https://drive.google.com/file/d/1hGyMZAvXFPX0g9eImHDs3OnzUor7yzVr/view?usp=sharing)| [✓](https://drive.google.com/file/d/1JAB4D7c2saVTXdw7QBhZ8Jvz44nqsvvK/view?usp=sharing)| [✓](https://drive.google.com/file/d/1VUcW0MOY50KZTc4faEmQYRJqk5_Djsg5/view?usp=sharing)| [✓](https://drive.google.com/file/d/1jMyWkCqBcZ1kiOasburm9QfbqhGYBMv4/view?usp=sharing)      | ✗   | ✗    |
+|w at| ✓ | ✓ | ✓ | ✓ |  |  |
 
-
-(https://drive.google.com/drive/folders/1DM4PumzxGblidBHXC8ao7yP3GHUl8KjC?usp=sharing).
