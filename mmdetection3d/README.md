@@ -69,7 +69,7 @@ vim mmdetection3d/configs/pointpillars/hv_pointpillars_fpn_sbn-all_4x8_2x_nus-3d
 
 2. Load pre-trained model's weights
 
-Add the following code the end
+Add the following codes in the end
 ```
 load_from = '${PATH_TO_PRETRAINED_CKPT}'
 find_unused_parameters = True
