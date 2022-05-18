@@ -46,11 +46,11 @@ pip install torch-sparse==latest+cu110 -f https://pytorch-geometric.com/whl/torc
 
 4. Replace folders 
 
-  a. In path `/mmdetection3d`, replace these official folders with ours:
-  ```
-  configs, mmdet3d, tools
-  ```
-  b. In path `/opt/conda/lib/python3.7/site-packages/`, replace the official `mmdet` folder with ours
+    a. In path `/mmdetection3d`, replace these official folders with ours:
+    ```
+    configs, mmdet3d, tools
+    ```
+    b. In path `/opt/conda/lib/python3.7/site-packages/`, replace the official `mmdet` folder with ours
 
 5. Add our `Checkpoints` folder into path `/mmdetection3d`
 
