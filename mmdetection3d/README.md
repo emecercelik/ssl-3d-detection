@@ -30,7 +30,7 @@ cd kaolin
 git checkout v0.1
 python setup.py install
 ```
-3. Install `torch_geometric`
+4. Install `torch_geometric`
 
 ```
 pip install torch_geometric==1.7.2
@@ -38,13 +38,13 @@ pip install torch-sparse==latest+{cu_version} -f https://pytorch-geometric.com/w
 pip install torch-scatter==latest+{cu_version} -f https://pytorch-geometric.com/whl/{torch_version}.html
 pip install torch-cluster==latest+{cu_version} -f https://pytorch-geometric.com/whl/{torch_version}.html
 ```
-Please replace `{cu_version}` and `{torch_version}` in the url to your desired one.
-For example,
-```
-pip install torch-sparse==latest+cu110 -f https://pytorch-geometric.com/whl/torch-1.7.0.html
-```
+    Please replace `{cu_version}` and `{torch_version}` in the url to your desired one.
+    For example,
+    ```
+    pip install torch-sparse==latest+cu110 -f https://pytorch-geometric.com/whl/torch-1.7.0.html
+    ```
 
-4. Replace folders 
+5. Replace folders 
 
     a. In path `/mmdetection3d`, replace these official folders with ours:
     ```
@@ -52,7 +52,7 @@ pip install torch-sparse==latest+cu110 -f https://pytorch-geometric.com/whl/torc
     ```
     b. In path `/opt/conda/lib/python3.7/site-packages/`, replace the official `mmdet` folder with ours
 
-5. Add our `Checkpoints` folder into path `/mmdetection3d`
+6. Add our `Checkpoints` folder into path `/mmdetection3d`
 
 ## Training
 
