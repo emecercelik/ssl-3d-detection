@@ -55,6 +55,9 @@ b. In path `/opt/conda/lib/python3.7/site-packages/`, replace the official `mmde
 5. Add our `Checkpoints` folder into path `/mmdetection3d`
 
 ## Evaluation
+
+You can download checkpoints from the following tables. If you want to test our checkpoints, you should change the path to the checkpoint in the corresponding bash file first, then run the bash command.  
+
 ### KITTI
 1. **PointPillars**
 
@@ -77,10 +80,10 @@ b. In path `/opt/conda/lib/python3.7/site-packages/`, replace the official `mmde
 ## Checkpoints for Detection Task
 |             | 1% |2.5%|5%|10%|20%|100%|
 |-------------|:--:|:--:|:--:|:---:|:---:|:---:|
-|PointPillars | ✗         | ✗            | ✗           | ✗      | [✓](https://drive.google.com/drive/folders/1kcvwXw8yH3kB6WbscdA1PrxWldQQ6VUh?usp=sharing)    |
-|w at| ✗ | ✓ | ✓ | ✓ | ✗ | ✗ |
-|CenterPoint | ✗         | [✓]()            | [✓]()           | [✓]()      | ✗   | ✓    |
-|w at| ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
-|SSN          | [✓]()| [✓]()| [✓]()| [✓]()      | ✗   | ✗    |
-|w at| ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
+|PointPillars | ✗         | ✗            | ✗           | ✗      | [✓](https://drive.google.com/file/d/1Zynqsel-iD4h7GS2QLOUcGmcI_Lohyuz/view?usp=sharing)    |
+|w at| ✗ | [✓](https://drive.google.com/file/d/1gPud-dwWXUHEVJufZsMGwH2K0PCntmdi/view?usp=sharing) | [✓](https://drive.google.com/file/d/1jcxXbFY_bPG46TgynnHoy4UCI1_FpnO_/view?usp=sharing) | [✓](https://drive.google.com/file/d/1N8vGy1Cz1zhKlhlWyyo2zrgtIvf1-APL/view?usp=sharing) | [✓](https://drive.google.com/file/d/1Fc1ldlQm099Vfx4agWlULc3gq6gKYdf1/view?usp=sharing) | ✗ |
+|CenterPoint | ✗         | [✓](https://drive.google.com/file/d/10tSDAGkdK5PEkcHajNuluR8c9ddnyc7_/view?usp=sharing)            | [✓](https://drive.google.com/file/d/1dWwFs0pcG1a3L6WV97v6x0nu2yFD-5HD/view?usp=sharing)           | [✓](https://drive.google.com/file/d/1031ZhfeIG7MCDxjGz5nHqxjCvcyAiYiy/view?usp=sharing)      | ✗   | ✓    |
+|w at| ✗ | [✓](https://drive.google.com/file/d/1ho4eHqfKX4rH9pW5PEeZon0knyxvVRph/view?usp=sharing) | ✗ | ✗ | ✗ | ✗ |
+|SSN          | [✓](https://drive.google.com/file/d/1hGyMZAvXFPX0g9eImHDs3OnzUor7yzVr/view?usp=sharing)| [✓](https://drive.google.com/file/d/1JAB4D7c2saVTXdw7QBhZ8Jvz44nqsvvK/view?usp=sharing)| [✓](https://drive.google.com/file/d/1VUcW0MOY50KZTc4faEmQYRJqk5_Djsg5/view?usp=sharing)| [✓](https://drive.google.com/file/d/1jMyWkCqBcZ1kiOasburm9QfbqhGYBMv4/view?usp=sharing)      | ✗   | ✗    |
+|w at| [✓](https://drive.google.com/file/d/16eLMag6qa7QyKzQTajo3AvNFidW9WlYM/view?usp=sharing) | [✓](https://drive.google.com/file/d/1s74rI84wf5XE5s-eUD7_8Y7dR1RNPJ72/view?usp=sharing) | [✓](https://drive.google.com/file/d/10A1OVQR4Kp_gsi95ZE4GBmbgOIbHfLPb/view?usp=sharing) | [[✓]()](https://drive.google.com/file/d/1THIi-db3OWm_8rD_TssaqM7nrxZkYvFk/view?usp=sharing) | ✗ | ✗ |
 
