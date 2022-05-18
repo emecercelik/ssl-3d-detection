@@ -56,9 +56,32 @@ b. In path `/opt/conda/lib/python3.7/site-packages/`, replace the official `mmde
 
 ## Training
 
-You can use the following command to train self-supervised scene flow with PointPillars.
+You can use the following command to train self-supervised scene flow with PointPillars. (Note: the self-supervised scene flow training only supports on single gpu)
 ```
-python ./tools/train.py ./configs/pointpillars/hv_pointpillars_fpn_sbn-all_4x8_2x_nus-3d_flow.py --work-dir ${WORK-DIR}
+python ./tools/train.py ./configs/pointpillars/hv_pointpillars_fpn_sbn-all_4x8_2x_nus-3d_flow.py --work-dir ${WORK-DIR} --gpu-ids 0
+```
+After the scene flow training, you can use the pre-trained models's weights to initialize the detection model. For example:
+
+1. Open PointPillars detection config file
+```
+vim mmdetection3d/configs/pointpillars/hv_pointpillars_fpn_sbn-all_4x8_2x_nus-3d_det.py
+```
+
+2. Load pre-trained model's weights
+
+Add the following code the end
+```
+load_from = '${PATH_TO_PRETRAINED_CKPT}'
+find_unused_parameters = True
+```
+
+3. Train the 3D detetcion model
+```
+python ./tools/train.py ./configs/pointpillars/hv_pointpillars_fpn_sbn-all_4x8_2x_nus-3d_det.py --work-dir ${WORK-DIR}
+```
+or you can also use multi gpus
+```
+./tools/train_dist.sh ./configs/pointpillars/hv_pointpillars_fpn_sbn-all_4x8_2x_nus-3d_det.py --work-dir ${WORK-DIR} ${GPU-NUM}
 ```
 
 ## Evaluation
@@ -94,3 +117,22 @@ You can download checkpoints from the following tables. If you want to test our 
 |SSN          | [✓](https://drive.google.com/file/d/1hGyMZAvXFPX0g9eImHDs3OnzUor7yzVr/view?usp=sharing)| [✓](https://drive.google.com/file/d/1JAB4D7c2saVTXdw7QBhZ8Jvz44nqsvvK/view?usp=sharing)| [✓](https://drive.google.com/file/d/1VUcW0MOY50KZTc4faEmQYRJqk5_Djsg5/view?usp=sharing)| [✓](https://drive.google.com/file/d/1jMyWkCqBcZ1kiOasburm9QfbqhGYBMv4/view?usp=sharing)      | ✗   | ✗    |
 |w at| [✓](https://drive.google.com/file/d/16eLMag6qa7QyKzQTajo3AvNFidW9WlYM/view?usp=sharing) | [✓](https://drive.google.com/file/d/1s74rI84wf5XE5s-eUD7_8Y7dR1RNPJ72/view?usp=sharing) | [✓](https://drive.google.com/file/d/10A1OVQR4Kp_gsi95ZE4GBmbgOIbHfLPb/view?usp=sharing) | [✓](https://drive.google.com/file/d/1THIi-db3OWm_8rD_TssaqM7nrxZkYvFk/view?usp=sharing) | ✗ | ✗ |
 
+## Detection on Partial Dataset
+
+For the 3d detection training on the partial dataset, we provide a function to get percent data from the whole dataset
+```
+python ./tools/subsample.py --input ${PATH_TO_PKL_FILE} --ratio ${RATIO}
+```
+For example, we want to get 10% nuScenes data
+```
+python ./tools/subsample.py --input ./data/nuscenes/nuscenes_infos_train.pkl --ratio 0.1
+```
+Then in the folder `mmdetection3d/data/nuscenes` a new pkl file `nuscenes_infos_train_0.1.pkl` will be generated.
+
+If we want to use it to do the detection training
+
+1. Open the training config file, for example
+```
+vim ./configs/_base_/datasets/nus-3d_basic.py
+```
+2. Change the training pkl file to `nuscenes_infos_train_0.1.pkl`
