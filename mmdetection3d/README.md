@@ -125,7 +125,7 @@ python ./tools/subsample.py --input ${PATH_TO_PKL_FILE} --ratio ${RATIO}
 ```
 For example, we want to get 10% nuScenes data
 ```
-python ./tools/subsample.py --input ./data/nuscenes/nuscenes_infos_train.pkl --ratio 0.1
+python ./tools/subsample.py --input /mmdetection3d/data/nuscenes/nuscenes_infos_train.pkl --ratio 0.1
 ```
 Then in the folder `mmdetection3d/data/nuscenes` a new pkl file `nuscenes_infos_train_0.1.pkl` will be generated.
 
