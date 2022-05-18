@@ -38,11 +38,12 @@ pip install torch-sparse==latest+{cu_version} -f https://pytorch-geometric.com/w
 pip install torch-scatter==latest+{cu_version} -f https://pytorch-geometric.com/whl/{torch_version}.html
 pip install torch-cluster==latest+{cu_version} -f https://pytorch-geometric.com/whl/{torch_version}.html
 ```
-    Please replace `{cu_version}` and `{torch_version}` in the url to your desired one.
-    For example,
-    ```
-    pip install torch-sparse==latest+cu110 -f https://pytorch-geometric.com/whl/torch-1.7.0.html
-    ```
+Please replace `{cu_version}` and `{torch_version}` in the url to your desired one.
+For example,
+    
+```
+pip install torch-sparse==latest+cu110 -f https://pytorch-geometric.com/whl/torch-1.7.0.html
+```
 
 5. Replace folders 
 
