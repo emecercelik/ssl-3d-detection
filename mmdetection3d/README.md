@@ -21,7 +21,7 @@ mmsegmentation==0.13.0
 
 For the model can be successfully used, please according to the followed steps.
 1. Install the official [mmdetetcion3d](https://github.com/open-mmlab/mmdetection3d/blob/master/docs/en/getting_started.md)
-2. We use KITTI and nuScenes datasets for our training. Please arrange the dataset structure and pre-precess following [data_preparation.md](https://github.com/open-mmlab/mmdetection3d/blob/v1.0.0.dev0/docs/en/data_preparation.md)
+2. We use KITTI and nuScenes datasets for our training. Please arrange the dataset structure and pre-precess data following [data_preparation.md](https://github.com/open-mmlab/mmdetection3d/blob/v1.0.0.dev0/docs/en/data_preparation.md)
 3. Install `kaolin` in mmdetection3d folder
 ```
 cd mmdetection3d
@@ -54,10 +54,6 @@ b. In path `/opt/conda/lib/python3.7/site-packages/`, replace the official `mmde
 
 5. Add our `Checkpoints` folder into path `/mmdetection3d`
 
-## Dataset
-
-We use KITTI and nuScenes datasets for our training. Please arrange the dataset structure following [mmdetection3d](https://github.com/open-mmlab/mmdetection3d/blob/v1.0.0.dev0/docs/en/data_preparation.md) 
-
 ## Evaluation
 ### KITTI
 1. **PointPillars**
@@ -81,7 +77,7 @@ We use KITTI and nuScenes datasets for our training. Please arrange the dataset 
 ## Checkpoints for Detection Task
 |             | 1% |2.5%|5%|10%|20%|100%|
 |-------------|:--:|:--:|:--:|:---:|:---:|:---:|
-|PointPillars | ✗         | ✗            | ✗           | ✗      | [✓](https://drive.google.com/file/d/13WQL1EelXd3Ef8On1YA0VFGLWfhXZoag/view?usp=sharing)   | [✓](https://drive.google.com/file/d/1PhdKXz7uVHcCbxznXjMOORuv9CvOlSuK/view?usp=sharing)    |
+|PointPillars | ✗         | ✗            | ✗           | ✗      | [✓](https://drive.google.com/drive/folders/1kcvwXw8yH3kB6WbscdA1PrxWldQQ6VUh?usp=sharing)    |
 |w at| ✗ | ✓ | ✓ | ✓ | ✗ | ✗ |
 |CenterPoint | ✗         | [✓](https://drive.google.com/file/d/10tSDAGkdK5PEkcHajNuluR8c9ddnyc7_/view?usp=sharing)            | [✓](https://drive.google.com/file/d/1dWwFs0pcG1a3L6WV97v6x0nu2yFD-5HD/view?usp=sharing)           | [✓](https://drive.google.com/file/d/1031ZhfeIG7MCDxjGz5nHqxjCvcyAiYiy/view?usp=sharing)      | ✗   | ✓    |
 |w at| ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
