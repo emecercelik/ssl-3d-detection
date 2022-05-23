@@ -111,7 +111,7 @@ You can download checkpoints from the following tables. If you want to test our 
 ## Checkpoints for Detection Task
 |             | 1% |2.5%|5%|10%|20%|100%|
 |-------------|:--:|:--:|:--:|:---:|:---:|:---:|
-|PointPillars | ✗         | ✗            | ✗           | ✗      | [✓](https://drive.google.com/file/d/1Zynqsel-iD4h7GS2QLOUcGmcI_Lohyuz/view?usp=sharing)    | [✓](https://drive.google.com/file/d/1aRwCMz6QnLbqjGB5xmc8AWOdn6a-wMl-/view?usp=sharing)|
+|PointPillars | ✗         | [✓](https://drive.google.com/file/d/1zgBBBnQnLYBApKDhOBY1CSbmKmLY4r92/view?usp=sharing)            | ✗           | [✓](https://drive.google.com/file/d/1VnXdBtTPjnctHXIdf_pVH0DtV9AamnJN/view?usp=sharing)      | [✓](https://drive.google.com/file/d/1Zynqsel-iD4h7GS2QLOUcGmcI_Lohyuz/view?usp=sharing)    | [✓](https://drive.google.com/file/d/1aRwCMz6QnLbqjGB5xmc8AWOdn6a-wMl-/view?usp=sharing)|
 |w at| ✗ | [✓](https://drive.google.com/file/d/1gPud-dwWXUHEVJufZsMGwH2K0PCntmdi/view?usp=sharing) | [✓](https://drive.google.com/file/d/1jcxXbFY_bPG46TgynnHoy4UCI1_FpnO_/view?usp=sharing) | [✓](https://drive.google.com/file/d/1N8vGy1Cz1zhKlhlWyyo2zrgtIvf1-APL/view?usp=sharing) | [✓](https://drive.google.com/file/d/1Fc1ldlQm099Vfx4agWlULc3gq6gKYdf1/view?usp=sharing) | ✗ |
 |CenterPoint | ✗         | [✓](https://drive.google.com/file/d/10tSDAGkdK5PEkcHajNuluR8c9ddnyc7_/view?usp=sharing)            | [✓](https://drive.google.com/file/d/1dWwFs0pcG1a3L6WV97v6x0nu2yFD-5HD/view?usp=sharing)           | [✓](https://drive.google.com/file/d/1031ZhfeIG7MCDxjGz5nHqxjCvcyAiYiy/view?usp=sharing)      | ✗   | ✓    |
 |w at| ✗ | [✓](https://drive.google.com/file/d/1ho4eHqfKX4rH9pW5PEeZon0knyxvVRph/view?usp=sharing) | ✗ | ✗ | ✗ | ✗ |
