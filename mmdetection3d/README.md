@@ -111,8 +111,8 @@ You can download checkpoints from the following tables. If you want to test our 
 ## Checkpoints for detection3 task
 |     |100%|
 |-----|:--:|
-|PointPillars|✓|(https://drive.google.com/file/d/1aRwCMz6QnLbqjGB5xmc8AWOdn6a-wMl-/view?usp=sharing)
-|CenterPoint|✓|(https://drive.google.com/file/d/185P1uL5aCjVLn6pt0DijRzvQE10vZdiU/view?usp=sharing)
+|PointPillars|[✓](https://drive.google.com/file/d/1aRwCMz6QnLbqjGB5xmc8AWOdn6a-wMl-/view?usp=sharing)|
+|CenterPoint|[✓](https://drive.google.com/file/d/185P1uL5aCjVLn6pt0DijRzvQE10vZdiU/view?usp=sharing)|
 <!-- ## Checkpoints for Detection Task -->
 <!-- |             | 1% |2.5%|5%|10%|20%|100%| -->
 <!-- |-------------|:--:|:--:|:--:|:---:|:---:|:---:| -->
