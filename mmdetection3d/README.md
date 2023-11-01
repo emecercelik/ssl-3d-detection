@@ -117,7 +117,7 @@ You can download checkpoints from the following tables. If you want to test our 
 ## Checkpoint for 3D object detection on KITTI
 |     |100%|
 |-----|:--:|
-|PointPillars|[[✓](https://drive.google.com/file/d/16xgc77NjM6w2ymHe6eez9xC8yg43mip3/view?usp=drive_link)
+|PointPillars|[✓](https://drive.google.com/file/d/16xgc77NjM6w2ymHe6eez9xC8yg43mip3/view?usp=drive_link)
 <!-- ## Checkpoints for Detection Task -->
 <!-- |             | 1% |2.5%|5%|10%|20%|100%| -->
 <!-- |-------------|:--:|:--:|:--:|:---:|:---:|:---:| -->
